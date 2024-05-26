@@ -67,8 +67,8 @@ export default function Home() {
   </div>
   
   return (
-    <div className='flex w-full h-full flex-col justify-center items-center h-screen'>
-      <h1 className='text-3xl mb-8'>YouTube Video Downloader</h1>
+    <div className='flex w-full h-full flex-col justify-center items-center h-screen p-4'>
+      <h1 className='text-3xl mb-8 text-center'>YouTube Video Downloader</h1>
       <input
         type="text"
         value={url}
